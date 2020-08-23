@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        html {
+            height: 100%;
+        }
+        .div1 {
+            height: 800px;
+            width: 1000px;
+            padding: 10px;
+            border: 15px dashed red;
+            /*线性渐变*/
+            /*background-image: linear-gradient(to right, black, white 50%, green  50%, red);*/
+            /*平铺渐变*/
+            /*background-image: repeating-linear-gradient(to right, black 20px, white 30px, green  40px);*/
+            /*background-image: radial-gradient(red,blue);*/
+            background-image: radial-gradient(farthest-side circle at 20% 40%,red,blue);
+            /*background-image: url("images/404.jpg");*/
+            /*background-repeat: repeat;*/
+            /*background-position: center center;*/
+            /*background-position: 50px 50px;*/
+            /*background-position: 50% 50%;*/
+            /*background-origin: border-box;*/
+            /*background-origin: padding-box;*/
+            background-origin: content-box;
+            background-clip: content-box;
+            background-size: cover;
+            /*background-clip: padding-box;*/
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+
+    </div>
+</body>
+</html>
